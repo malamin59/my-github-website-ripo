@@ -1,1 +1,204 @@
-git init
+
+
+
+
+.nav-main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    gap: 400px;
+    width: 1200px;
+}
+.navication ul  {
+    display: flex;
+}
+.navication ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+.navication ul li a {
+    color: black;
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: 0px;
+text-align: left;
+}
+.h1-class {
+color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0px;
+text-align: left;
+}
+/*  header area style */
+
+.main_secion{
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    gap: 80px;
+}
+.section_div{
+    width: 582px;
+    margin-left: -2px;
+}
+.main_h1{
+color: rgb(58, 58, 58);
+font-family: Poppins;
+font-size: 45px;
+font-weight: 700;
+line-height: 70px;
+letter-spacing: 0px;
+text-align: left;
+}
+.main_p {
+    margin-top: -40px;
+    width: 450px;
+}
+.btn {
+    padding: 10px 24px 10px 24px;
+    border-radius: 41px;
+    background: rgb(224, 44, 109);
+    border: none;
+    color: white;
+}
+/* image area style */
+.image_area {
+    width: 380px;
+    margin-top: 20px;
+    background-image: url(images/Circle\ design.svg);
+}
+.image_area img {
+    width: 100%;
+    background-color: rgb(253, 250, 250);
+    border-radius: 50%;
+    padding: 10px;
+}
+.icon_area{
+    width:900px;
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 30px 40px 180PX;
+    border-bottom: 1PX solid #b8b2b2;
+}
+.icon_area img {
+    max-width: 100%;
+}
+/*  content area style */
+.main_content {
+    width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 50px;
+    gap: 25px;
+    margin: 80px auto;
+
+}
+.main_content img {
+    width: 300px;
+    height: 250px;
+}
+.child{
+    /* Rectangle 4622 */
+width: 300px;
+height: 450px;
+border-radius: 5px;
+box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+background: rgb(255, 255, 255);
+padding: 14px;
+
+}
+.child-h2{
+color: rgb(24, 25, 31);
+font-family: Poppins;
+font-size: 28px;
+font-weight: 500;
+line-height: 40px;
+letter-spacing: 0%;
+text-align: left;
+}
+.child-h3 {
+color: rgba(0, 0, 0, 0.87);
+font-family: Inter;
+font-size: 24px;
+font-weight: 400;
+margin-top: -10px;
+/* line-height: 150%; */
+letter-spacing: 0%;
+text-align: left;
+}
+.child-p {
+color: rgb(120, 120, 133);
+font-family: Inter;
+font-size: 14px;
+font-weight: 700;
+line-height: 143%;
+letter-spacing: 1.8%;
+text-align: left;
+}
+/*  last_img area style */
+.last_img {
+    display: flex;
+    width: 1000px;
+    justify-content: center;
+    align-content: center;
+    /* margin: 0 auto; */
+    margin-top: 150px;
+    gap: 100px;
+    margin-left: 100px;
+
+}
+.last_img img  {
+  margin-left: 100px;
+  width: 404px;
+height: 240px;
+
+}
+.last_container {
+    width: 700px;
+}
+.last_img-h2 {
+color: rgb(10, 8, 38);
+font-family: Poppins;
+font-size: 30px;
+font-weight: 600;
+line-height: 50px;
+letter-spacing: 0px;
+text-align: left;
+}
+.last_img-p {
+color: rgb(108, 108, 108);
+font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 28px;
+letter-spacing: 0px;
+text-align: left;
+}
+.btnt{
+    padding: 7px 18px;
+    color: white;
+    background: rgb(224, 44, 109);
+    border: none;
+}
+/* footer_area style */
+.footer_area {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    /* visibility: hidden; */
+background: rgb(170, 170, 170);
+padding: 50px 0px;
+margin: 50px 0px 0px 0px;
+    
+}
+
+
+
